@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 1,
+  "id": 2,
   "links": [],
   "panels": [
     {
@@ -193,7 +193,7 @@
     {
       "gridPos": {
         "h": 6,
-        "w": 12,
+        "w": 8,
         "x": 0,
         "y": 4
       },
@@ -247,8 +247,8 @@
     {
       "gridPos": {
         "h": 6,
-        "w": 12,
-        "x": 12,
+        "w": 8,
+        "x": 8,
         "y": 4
       },
       "id": 9,
@@ -296,6 +296,60 @@
       "timeFrom": null,
       "timeShift": null,
       "title": "Humidity",
+      "type": "gauge"
+    },
+    {
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 16,
+        "y": 4
+      },
+      "id": 11,
+      "links": [],
+      "options": {
+        "maxValue": "25",
+        "minValue": "10",
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "thresholds": [
+          {
+            "color": "#1F60C4",
+            "index": 0,
+            "value": null
+          },
+          {
+            "color": "#37872D",
+            "index": 1,
+            "value": 18
+          },
+          {
+            "color": "#C4162A",
+            "index": 2,
+            "value": 22
+          }
+        ],
+        "valueMappings": [],
+        "valueOptions": {
+          "decimals": null,
+          "prefix": "",
+          "stat": "current",
+          "suffix": "",
+          "unit": "celsius"
+        }
+      },
+      "targets": [
+        {
+          "expr": "{__name__=~\"nest.target_temp\"}",
+          "format": "time_series",
+          "intervalFactor": 1,
+          "legendFormat": "Temperature",
+          "refId": "A"
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Target temperature",
       "type": "gauge"
     },
     {
@@ -514,7 +568,7 @@
     ]
   },
   "timezone": "",
-  "title": "Nest metrics",
+  "title": "Nest merics",
   "uid": "VIWMh83ik",
-  "version": 19
+  "version": 3
 }
