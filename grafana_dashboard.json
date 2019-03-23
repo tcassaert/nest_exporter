@@ -223,7 +223,7 @@
         ],
         "valueMappings": [],
         "valueOptions": {
-          "decimals": null,
+          "decimals": 1,
           "prefix": "",
           "stat": "current",
           "suffix": "",
@@ -331,7 +331,7 @@
         ],
         "valueMappings": [],
         "valueOptions": {
-          "decimals": null,
+          "decimals": 1,
           "prefix": "",
           "stat": "current",
           "suffix": "",
@@ -539,7 +539,7 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
@@ -570,5 +570,5 @@
   "timezone": "",
   "title": "Nest merics",
   "uid": "VIWMh83ik",
-  "version": 3
+  "version": 6
 }
