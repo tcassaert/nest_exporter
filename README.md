@@ -85,4 +85,4 @@ This dashboard requires you to have setup Prometheus as data source for Grafana.
 [1]: https://codelabs.developers.google.com/codelabs/wwn-api-quickstart
 [2]: https://prometheus.io/
 [3]: https://grafana.com/
-[grafana_dashboard]: https://github.com/tcassaert/nest_exporter/images/dashboard.png
+[grafana_dashboard]: images/dashboard.png
